@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In and Sign Up</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="main-body">
+    <div class="container" id="container">
+        <div class="form-container sign-in-container">
+            <form action="#" class="form">
+                <h1 class="title">Sign In</h1>
+                <div class="social-container">
+                    <a href="#" class="icon"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="icon"><i class='bx bxl-google'></i></a>
+                    <a href="#" class="icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#" class="icon"><i class='bx bxl-github'></i></a>
+                </div>
+                <span class="description">or use your email for registration</span>
+                <input type="email" placeholder="Email" class="input-field" />
+                <input type="password" placeholder="Password" class="input-field" />
+                <a href="#" class="forgot-password">Forgot your password?</a>
+                <button class="btn sign-in">Sign In</button>
+            </form>
+        </div>
+        <div class="form-container sign-up-container">
+            <form action="#" class="form">
+                <h1 class="title">Create Account</h1>
+                <div class="social-container">
+                    <a href="#" class="icon"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="icon"><i class='bx bxl-google'></i></a>
+                    <a href="#" class="icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#" class="icon"><i class='bx bxl-github'></i></a>
+                </div>
+                <span class="description">or use your email for registration</span>
+                <input type="text" placeholder="Name" class="input-field" />
+                <input type="email" placeholder="Email" class="input-field" />
+                <input type="password" placeholder="Password" class="input-field" />
+                <button class="btn sign-up">Sign Up</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1 class="title">Welcome Back!</h1>
+                    <p class="description">To keep connected with us please login with your personal info</p>
+                    <button class="btn ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1 class="title">Hello, Friend!</h1>
+                    <p class="description">Enter your personal details and start journey with us</p>
+                    <button class="btn ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
